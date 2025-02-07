@@ -1,0 +1,94 @@
+/*fonts*/
+@font-face {
+  font-family: "Hobbiton Brushhand"; /* Name of the font */
+  src: url("HobbitonBrushhandhobbitonBrush-WygA.ttf") format("truetype"); /* Relative path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* app background and borders*/
+.app-container {
+  height: 100%;
+  margin: 0;
+  padding: 25px;
+  background-color: #f2f2f2;
+  color: #ffffff;
+  font-stretch: extra-expanded;
+}
+
+/* app content*/
+.content-container {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr 3fr 1fr;
+  grid-template-rows: 150px 150px 150px 150px 150px;
+  gap: 15px;
+  max-height: 450px;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 15px;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/76f7b3f1-b080-4fc2-b063-acfc6981d5a8/d70c1s1-fa7abcdc-8331-4dd2-94ff-e7919b302c33.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc2ZjdiM2YxLWIwODAtNGZjMi1iMDYzLWFjZmM2OTgxZDVhOFwvZDcwYzFzMS1mYTdhYmNkYy04MzMxLTRkZDItOTRmZi1lNzkxOWIzMDJjMzMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Yd_6KkqFYOgWJY8671bqfQa_N1DNoN81r9eJPyFNfN4");
+  background-position: center;
+  z-index: -20;
+  border: 2px solid #000000;
+  border-radius: 48px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Hide overflow */
+}
+
+/* search form container*/
+.search-form {
+}
+
+/* search form bar*/
+#search-field {
+}
+
+/* search form input*/
+.search-input {
+}
+
+/* text under search bar that toggles on/off when go button clicked*/
+#searching {
+}
+
+.search-button {
+}
+
+.temp {
+}
+#temperature {
+}
+.icon {
+}
+.info {
+}
+#wind {
+}
+#humidity {
+}
+#descriptor {
+}
+.time {
+}
+#hour {
+}
+#min {
+}
+.city {
+}
+#city-result {
+}
+.date {
+}
+#weekday {
+}
+#month {
+}
+#day {
+}
+#year {
+}
+footer {
+}
+a {
+}
